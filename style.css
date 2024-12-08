@@ -1,0 +1,82 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .atm-container {
+    background: #ffffff;
+    border: 2px solid #0077b6;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #0077b6;
+    margin-bottom: 20px;
+  }
+  
+  .display {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 60px;
+  }
+  
+  .buttons button {
+    background: #0077b6;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .buttons button:hover {
+    background: #005f87;
+  }
+  
+  .input-area {
+    margin-top: 20px;
+    display: none;
+  }
+  
+  .input-area label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-area input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .input-area button {
+    background: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-area button:hover {
+    background: #218838;
+  }
+  

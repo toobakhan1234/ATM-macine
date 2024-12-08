@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATM Machine</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="atm-container">
+    <h1>ATM Machine</h1>
+    <div class="display">
+      <p id="message">Welcome! Please select an option below:</p>
+    </div>
+    <div class="buttons">
+      <button onclick="balanceInquiry()">Balance Inquiry</button>
+      <button onclick="cashWithdrawal()">Cash Withdrawal</button>
+      <button onclick="depositAmount()">Deposit</button>
+      <button onclick="exitATM()">Exit</button>
+    </div>
+    <div class="input-area" id="input-area">
+      <label for="amount">Enter Amount:</label>
+      <input type="number" id="amount" placeholder="Enter amount here">
+      <button onclick="confirmTransaction()">Confirm</button>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
